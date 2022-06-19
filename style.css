@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding-top: 600px;
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+    height: 250px;
+    width: 200px;
+    margin-top: 50px;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    display: table;
+    background: linear-gradient(lightgreen,lightblue);
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 300;
+}
+#name{
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+h2{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 300;
+}
+#auto{
+    font-family: cursive;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10;
+    
+    background: white;
+    width: 100%;
+}
+.links{
+    display: inline;
+    
+
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+#Contact{
+    background: lightgray;
+}
+#Contact iframe{
+    width: 100%;
+}
+.Contact1 h3{
+    display: inline;
+}
